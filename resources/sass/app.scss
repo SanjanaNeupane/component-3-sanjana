@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import '../css/app.css';
+
+@import '../css/dashboard.css';
+@import '../css/style.css';
+
+
+:root {
+    --primary-bg-color: rgba(0,0,0,0.3);
+    --secondary-bg-color: rgba(0,0,0,0.5);
+    --border-color: black;
+    --text-color: white;
+  
+  }

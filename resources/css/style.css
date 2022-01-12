@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.item-container {
+    flex-basis: 32%;
+    border-radius: 10px;
+    background-color:   var(--secondary-bg-color);
+    margin: auto 0;
+    box-shadow: 5px 10px black ;
+    padding: 10px 20px;
+    min-height: 564px;
+}
+
+
+.item-container>.item-type,
+.item-container>.form1>.item-type,
+.item-container>.form-class>.form1>.item-type {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.item-container>.item-content,
+.item-container>.form1>.item-content,
+.item-container>.form-class>.form1>.item-content {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.item-container.update-form {
+    align-self: center;
+}
+
+.form1>.item-content>input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    border-color:#B6B8B9;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+    color: white;
+    border: 1px solid black;
+    
+}
+
+.form1>.item-type>select {
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.item-title,
+.item-details {
+    margin: 10px 0px;
+    display: block;
+}
+.item-details {
+    color: #B6B8B9;
+}
+
+.item-container>.item-content>.item-select>.product-detail-box>.item-title {
+    font-weight: 900;
+}
+.item-container>form>.item-content>.item-title {
+    font-size: 16px;
+}
+
+
+.item-select {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.item-select>a, #submit {
+    margin-left: auto;
+}
+
+button {
+    border-radius: 50px;
+    padding: 10px 15px;
+    width: 50px;
+    background: linear-gradient(to right,#005e18,#009c27);
+    color: white;
+    cursor: pointer;
+}
+.pagination {
+    max-height: 40px;
+    max-width: 100%;
+
+
+}
+.page-item {
+    display: inline-block;
+    padding: 10px;
+}
+@media screen and (max-width: 1100px) {
+    .item-container{
+        flex-basis: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .item-container{
+        flex-basis: 400px;
+    }
+}
+
+.product-img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.main>.container>.item-container {
+    margin: 50px auto 0px auto;
+}
