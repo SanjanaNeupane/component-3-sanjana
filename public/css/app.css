@@ -859,7 +859,7 @@
 
 .item-container {
     flex-basis: 32%;
-    border-radius: 10px;
+   
     background-color:   var(--secondary-bg-color);
     margin: auto 0;
     box-shadow: 5px 10px black ;
@@ -975,7 +975,7 @@ button {
 :root {
   --primary-bg-color: rgba(0,0,0,0.3);
   --secondary-bg-color: rgba(0,0,0,0.5);
-  --border-color: black;
+  --border-color: rgb(247, 240, 240);
   --text-color: white;
 }
 

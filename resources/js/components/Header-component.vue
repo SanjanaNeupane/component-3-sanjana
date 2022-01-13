@@ -10,7 +10,7 @@
             </div>
             <div class="header__dropdown">
                     <ul class="user__option">
-                        <li><router-link to="/profile">Profile</router-link></li>
+                        
                         <li><a href="#" @click.prevent="logout">Logout</a></li>
                     </ul>
             </div>

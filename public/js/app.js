@@ -35963,16 +35963,6 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "header__dropdown" }, [
       _c("ul", { staticClass: "user__option" }, [
-        _c(
-          "li",
-          [
-            _c("router-link", { attrs: { to: "/profile" } }, [
-              _vm._v("Profile")
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
         _c("li", [
           _c(
             "a",
@@ -52935,8 +52925,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\component-3-sanjana-main\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\component-3-sanjana-main\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\component-3-sanjana\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\component-3-sanjana\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

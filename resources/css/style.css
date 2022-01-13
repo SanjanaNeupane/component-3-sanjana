@@ -17,7 +17,7 @@
 
 .item-container {
     flex-basis: 32%;
-    border-radius: 10px;
+   
     background-color:   var(--secondary-bg-color);
     margin: auto 0;
     box-shadow: 5px 10px black ;
